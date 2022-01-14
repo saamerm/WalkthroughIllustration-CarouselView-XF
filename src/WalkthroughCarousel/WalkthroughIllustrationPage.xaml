@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<CarouselPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#880000"
+    x:Class="WalkthroughCarousel.WalkthroughIllustrationPage">
+    <ContentPage>
+        <StackLayout BackgroundColor="#888888"
+HorizontalOptions="Center" VerticalOptions = "Center">
+            <Label Text = "One"/>
+        </StackLayout>
+    </ContentPage>
+       <ContentPage>
+        <StackLayout BackgroundColor="#888888"
+ HorizontalOptions="Center" VerticalOptions = "Center">
+            <Label Text = "Two"/>
+        </StackLayout>
+    </ContentPage>
+       <ContentPage>
+        <StackLayout BackgroundColor="#888888"
+ HorizontalOptions="Center" VerticalOptions = "Center">
+            <Label Text = "Three"/>
+            <Button Text = "Close" Clicked="OnButtonClicked"/>
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>
