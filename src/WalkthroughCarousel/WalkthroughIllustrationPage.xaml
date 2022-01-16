@@ -3,24 +3,9 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     BackgroundColor="#880000"
+    xmlns:local="clr-namespace:WalkthroughCarousel"
     x:Class="WalkthroughCarousel.WalkthroughIllustrationPage">
-    <ContentPage>
-        <StackLayout BackgroundColor="#888888"
-HorizontalOptions="Center" VerticalOptions = "Center">
-            <Label Text = "One"/>
-        </StackLayout>
-    </ContentPage>
-       <ContentPage>
-        <StackLayout BackgroundColor="#888888"
- HorizontalOptions="Center" VerticalOptions = "Center">
-            <Label Text = "Two"/>
-        </StackLayout>
-    </ContentPage>
-       <ContentPage>
-        <StackLayout BackgroundColor="#888888"
- HorizontalOptions="Center" VerticalOptions = "Center">
-            <Label Text = "Three"/>
-            <Button Text = "Close" Clicked="OnButtonClicked"/>
-        </StackLayout>
-    </ContentPage>
+    <local:WalkthroughStepOnePage/>
+    <local:WalkthroughStepTwoPage/>
+    <local:WalkthroughStepThreePage/>
 </CarouselPage>

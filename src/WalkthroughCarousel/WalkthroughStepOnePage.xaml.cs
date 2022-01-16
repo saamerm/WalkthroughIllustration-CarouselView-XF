@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace WalkthroughCarousel
 {
-    public partial class WalkthroughIllustrationPage : CarouselPage
+    public partial class WalkthroughStepOnePage : ContentPage
     {
-        public WalkthroughIllustrationPage()
+        public WalkthroughStepOnePage()
         {
             InitializeComponent();
         }
